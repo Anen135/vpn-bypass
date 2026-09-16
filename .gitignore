@@ -1,0 +1,3 @@
+native-host/bin/
+native-host/obj/
+.build/

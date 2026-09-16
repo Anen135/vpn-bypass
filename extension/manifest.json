@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "VPN Bypass",
+  "version": "0.1.0",
+  "description": "Переключает прямой маршрут для текущего сайта в Windows.",
+  "author": "Anen135",
+  "homepage_url": "https://github.com/Anen135/vpn-bypass",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh/phlXtccNS2Zmy5fMfWsoV4S5M+tA5p9lMLf7OPjBddBB40552APv7Vtou/Be4JsN37Uh/G2Fkct5P8eKSYDJZcTEFamT/DOYRUZC6gksy74dVUHrAtDjPVDUDSLJUFAqfdYDwUXbaNXBUVaBDzcGIF9kkhrQyccf7Yyd52S+j761o3h2x+kHx3J7/Rb1cERYLJ7Q9RCv6DHvGAah99Yu0FkLEHo64W1VpALXPoQWI9Y0YJmnJyGzD+12HYxkFsYaeYI71Q/PhsbkY++ndgh42DuofMvNAn4e/HYzCkSxRf95qiRGSmNKIlJ2skJhfdOjtsvffLOE1rKu8oGOwTkwIDAQAB",
+  "permissions": [
+    "activeTab",
+    "nativeMessaging",
+    "storage",
+    "tabs"
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "VPN Bypass",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  }
+}

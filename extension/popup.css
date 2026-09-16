@@ -1,0 +1,39 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 280px;
+  padding: 12px;
+  background: Canvas;
+}
+
+button {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 42px;
+  padding: 9px 14px;
+  border: 0;
+  border-radius: 9px;
+  color: white;
+  background: #2563eb;
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.65;
+}
+
+button[data-error="true"] {
+  background: #b91c1c;
+}
